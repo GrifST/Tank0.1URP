@@ -7,7 +7,7 @@ public class SpawnEnemyControler : MonoBehaviour
 {
 
     [SerializeField] private GameObject prefEnemy;
-    private Transform[] spawnEnemy { };
+    [SerializeField] private Transform spawnEnemy ;
     [SerializeField] private StatSetter _statSetterEnemy;
     [SerializeField] private int kills;
     [SerializeField] private Text killsUi;
