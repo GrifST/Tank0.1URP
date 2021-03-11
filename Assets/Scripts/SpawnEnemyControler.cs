@@ -12,11 +12,13 @@ public class SpawnEnemyControler : MonoBehaviour
     [SerializeField] private int kills;
     [SerializeField] private Text killsUi;
 
+  // [SerializeField] private List<SpawnPoint> spawnPoints = new List<SpawnPoint>();
+
     void Start()
     {
         EnemyGo();
         killsUi.text = kills.ToString();
-
+       // spawnPoints.AddRange(FindObjectsOfType<SpawnPoint>());
     }
 
 
