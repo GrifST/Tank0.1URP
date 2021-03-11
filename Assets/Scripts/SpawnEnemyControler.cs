@@ -7,7 +7,7 @@ public class SpawnEnemyControler : MonoBehaviour
 {
 
     [SerializeField] private GameObject prefEnemy;
-    [SerializeField] private Transform spawnEnemy;
+    private Transform[] spawnEnemy { };
     [SerializeField] private StatSetter _statSetterEnemy;
     [SerializeField] private int kills;
     [SerializeField] private Text killsUi;
@@ -16,6 +16,7 @@ public class SpawnEnemyControler : MonoBehaviour
     {
         EnemyGo();
         killsUi.text = kills.ToString();
+
     }
 
 
