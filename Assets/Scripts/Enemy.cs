@@ -13,6 +13,11 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float searchTimer;
     [SerializeField] private float setTimer;
     RotationGunEnemy rotationGun;
+    [Header("Траки")]
+    public Track trackLeft;
+    public Track trackRight;
+
+    
 
     void Start()
     {
@@ -29,7 +34,8 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-
+        var currentSpeed = rb.velocity.magnitude;
+        print(currentSpeed);
 
         if (searchTimer < setTimer && Player == null)
         {
@@ -44,6 +50,15 @@ public class Enemy : MonoBehaviour
         if (Player != null)
         {
             SearchPlayer();
+        }
+
+        if (currentSpeed > 0)
+        {
+            trackStart();
+        }
+        else
+        {
+            trackStop();
         }
     }
 
@@ -67,5 +82,17 @@ public class Enemy : MonoBehaviour
         {
             transform.position = Vector2.MoveTowards(transform.position, Player.position, -Speed * Time.deltaTime);
         }
+    }
+
+    void trackStart()
+    {
+        trackLeft.animator.SetBool("IsMoving", true);
+        trackRight.animator.SetBool("IsMoving", true);
+    }
+
+    void trackStop()
+    {
+        trackLeft.animator.SetBool("IsMoving", false);
+        trackRight.animator.SetBool("IsMoving", false);
     }
 }
