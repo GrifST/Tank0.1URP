@@ -140,7 +140,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnEnemyPoint (2)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -165,7 +165,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162799968}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.16, y: 10.31, z: -1.4437375}
+  m_LocalPosition: {x: -8.48, y: 10.31, z: -1.4437375}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -318,7 +318,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnEnemyPoint (3)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -343,7 +343,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 256483324}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.16, y: 10.31, z: -1.4437375}
+  m_LocalPosition: {x: -4.13, y: 10.31, z: -1.4437375}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -558,7 +558,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnEnemyPoint (4)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -570,7 +570,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 439825884}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.16, y: 10.31, z: -1.4437375}
+  m_LocalPosition: {x: -1.55, y: 10.31, z: -1.4437375}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1604,10 +1604,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefEnemy: {fileID: 470590201176979118, guid: 569799d03170f684a977c36d121bbd85,
     type: 3}
-  spawnEnemy: {fileID: 439825885}
   _statSetterEnemy: {fileID: 1989725513}
   kills: 0
   killsUi: {fileID: 898434865}
+  tankSpawn: 1
+  tankRound: 2
+  spawnPoints: []
+  tempSpawnPoint: []
 --- !u!4 &782898178
 Transform:
   m_ObjectHideFlags: 0
@@ -2394,7 +2397,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnEnemyPoint (1)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2516,7 +2519,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnEnemyPoint (5)
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2541,7 +2544,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1353504335}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.16, y: 10.31, z: -1.4437375}
+  m_LocalPosition: {x: 0.99, y: 10.31, z: -1.4437375}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

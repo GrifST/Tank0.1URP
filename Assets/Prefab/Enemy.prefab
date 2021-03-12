@@ -507,8 +507,8 @@ MonoBehaviour:
   player: {fileID: 470590201176979118}
   _statSetter: {fileID: 0}
   Enemy: {fileID: 0}
-  _maxHelthPoint: 20
-  _maxShieldPoint: 20
+  _maxHelthPoint: 1
+  _maxShieldPoint: 1
 --- !u!61 &470590201176979108
 BoxCollider2D:
   m_ObjectHideFlags: 0
