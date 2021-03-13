@@ -33,6 +33,4 @@ sysinfo.txt
 *.apk
 *.unitypackage
 html5
-ProjectSettings/XRSettings.asset
-*.meta
-Tank0.1
+Tank0.1/
