@@ -37,18 +37,8 @@ public class Tank : MonoBehaviour
     private bool moveReverse = false;
     private bool rotateRight = false;
     private bool rotateLeft = false;
-    
-    
-    
-   
-    
 
 
-    private void Start()
-    {
-      
-       
-    }
     void Update()
     {
         if (Input.GetMouseButton(0))

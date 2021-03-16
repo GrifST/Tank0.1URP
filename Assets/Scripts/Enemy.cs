@@ -37,7 +37,7 @@ public class Enemy : MonoBehaviour
     private void FixedUpdate()
     {
         var currentSpeed = rb.velocity.magnitude;
-        print(currentSpeed);
+       
 
         if (searchTimer < setTimer && Player == null)
         {
@@ -82,7 +82,7 @@ public class Enemy : MonoBehaviour
         }
         else if (dist < RetreatDist)
         {
-            float c_speed = Mathf.Clamp((dist - RetreatDist) * acceleration, -speed, speed);
+            float c_speed = Mathf.Clamp((RetreatDist - dist) * acceleration, -speed, speed);
             rb.velocity = direction.normalized * -c_speed ;
         }
         else

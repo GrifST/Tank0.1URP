@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Text gameoverUI;
     [SerializeField] private Button restartButton;
     [SerializeField] private Croshire croshire;
+    
     private void Start()
     {
         Cursor.visible = false;
@@ -22,6 +23,12 @@ public class GameManager : MonoBehaviour
         restartButton.gameObject.SetActive(false);
     }
 
+    public void LivesScore(int  bonusLive)
+    {
+        lives += bonusLive;
+        livesUi.text = lives.ToString();
+    }
+    
     private void GoGoTank()
     {
         if (lives <= 0) return;
