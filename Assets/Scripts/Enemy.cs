@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float Speed;
+    [SerializeField] private float speed;
+    [SerializeField] private float acceleration;
     public float StopDist;
     public float RetreatDist;
     public Transform Player;
@@ -31,8 +32,9 @@ public class Enemy : MonoBehaviour
 
     }
 
+   
 
-    void Update()
+    private void FixedUpdate()
     {
         var currentSpeed = rb.velocity.magnitude;
         print(currentSpeed);
@@ -60,30 +62,34 @@ public class Enemy : MonoBehaviour
         {
             trackStop();
         }
+
+ 
+        
     }
 
-    private void SearchPlayer()
+    void SearchPlayer()
     {
 
         Vector3 direction = Player.position - transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         rb.rotation = angle;
         var dist = Vector2.Distance(transform.position, Player.position);
-
+        
         if (dist > StopDist)
         {
-            transform.position = Vector2.MoveTowards(transform.position, Player.position, Speed * Time.deltaTime);
-        }
-        else if (dist < StopDist && (dist > RetreatDist))
-        {
-            transform.position = Player.position;
+           float c_speed = Mathf.Clamp((dist - StopDist) * acceleration, -speed, speed);
+            rb.velocity = direction.normalized * c_speed ;
         }
         else if (dist < RetreatDist)
         {
-            transform.position = Vector2.MoveTowards(transform.position, Player.position, -Speed * Time.deltaTime);
+            float c_speed = Mathf.Clamp((dist - RetreatDist) * acceleration, -speed, speed);
+            rb.velocity = direction.normalized * -c_speed ;
+        }
+        else
+        {
+            rb.velocity = Vector3.zero;// останавиваем танк
         }
     }
-
     void trackStart()
     {
         trackLeft.animator.SetBool("IsMoving", true);

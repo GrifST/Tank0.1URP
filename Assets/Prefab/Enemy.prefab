@@ -77,7 +77,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 2.5, y: 2.56}
+  m_Size: {x: 2.56, y: 2.56}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -427,7 +427,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 2.5, y: 2.56}
+  m_Size: {x: 2.56, y: 2.56}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -514,9 +514,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bae1e81b79d93848b51fa876a80853d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 5
+  speed: 5
+  acceleration: 3
   StopDist: 10
-  RetreatDist: 15
+  RetreatDist: 5
   Player: {fileID: 0}
   searchTimer: 0
   setTimer: 1
@@ -879,7 +880,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.5, y: 2.56}
+  m_Size: {x: 2.56, y: 2.56}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

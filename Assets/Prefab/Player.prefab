@@ -354,8 +354,8 @@ MonoBehaviour:
   keyRotateRight: d
   keyRotateLeft: a
   _shoting: {fileID: 8747657237199423226}
-  moveAcceleration: 0.1
-  moveSpeedMax: 2.5
+  moveAcceleration: 0.2
+  moveSpeedMax: 5
   trackLeft: {fileID: 4865664691228848300}
   trackRight: {fileID: 4865664691547377826}
 --- !u!61 &7240509493340094832
@@ -508,7 +508,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 2.5, y: 2.56}
+  m_Size: {x: 2.56, y: 2.56}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -738,7 +738,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 2.5, y: 2.56}
+  m_Size: {x: 2.56, y: 2.56}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
