@@ -11,13 +11,16 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int lives;
     [SerializeField] private Text livesUi;
     [SerializeField] private Text gameoverUI;
+    [SerializeField] private Text victoryUi;
     [SerializeField] private Button restartButton;
     [SerializeField] private Croshire croshire;
+    [SerializeField] private SpawnEnemyControler SpawnEnemyControler;
     
     private void Start()
     {
         Cursor.visible = false;
         GoGoTank();
+        victoryUi.enabled = false;
         gameoverUI.enabled = false;
         livesUi.text = lives.ToString();
         restartButton.gameObject.SetActive(false);
@@ -41,7 +44,10 @@ public class GameManager : MonoBehaviour
         temp.GetComponentInChildren<HelthControl>().Setter = _statSetter;
         temp.GetComponentInChildren<HelthControl>().OnDead += OnPlayerDeda;
         cam.player = temp;
+        SpawnEnemyControler.SetEnemysTargetAtack(temp);
         return temp;
+        
+
     }
 
     private void OnPlayerDeda(GameObject player)
@@ -51,6 +57,13 @@ public class GameManager : MonoBehaviour
         lives--;
         GameOver();
         GoGoTank();
+    }
+    public void VictoryBatlle()
+    {
+        victoryUi.enabled = true;
+        restartButton.gameObject.SetActive(true);
+        Cursor.visible = true;
+        croshire.enabled = false;
     }
     private void GameOver()
     {

@@ -15,6 +15,7 @@ public class SpawnEnemyControler : MonoBehaviour
     [SerializeField] private List<SpawnPoint> spawnPoints = new List<SpawnPoint>();
     [SerializeField] private List<SpawnPoint> tempSpawnPoint = new List<SpawnPoint>();
     [SerializeField] private List<Enemy> tempTankOnScene = new List<Enemy>();
+    [SerializeField] private GameManager GameManager;
 
 
     void Start()
@@ -32,53 +33,48 @@ public class SpawnEnemyControler : MonoBehaviour
     private void EnemyGo()
     {
         // Условие победы
-        if (tankRound <= 0)
+        if (tankRound <= 0 )
         {
-            print("заработало");
+            if (tempTankOnScene.Count == 0) GameManager.VictoryBatlle();
             return;
 
         }
-
-
-        
-       // var  tankOnScene = FindObjectsOfType<Enemy>();
-        
-
         if (tempTankOnScene.Count >= tankSpawn) return;
 
         var tankFactory = tankSpawn - tempTankOnScene.Count;
 
-
         tankRound -= tankFactory;
 
-
-        if (tankRound < 0)
+        if (tankRound < 0 )
         {
             tankRound = 0;
         }
-       
-
-        
-       
 
         for (int i = 0; i < tankFactory; i++)
         {
+            if (tempSpawnPoint.Count == 0) tempSpawnPoint.AddRange(spawnPoints);
            
-            if (tempSpawnPoint.Count > 0)
-            {
-                int rnd = Random.Range(0, tempSpawnPoint.Count);
+                int rnd = Random.Range(0, tempSpawnPoint.Count - 1);
                 EnemyCreate(prefEnemy).transform.position = tempSpawnPoint[rnd].transform.position;
-              
+
                 tempSpawnPoint.RemoveAt(rnd);
-            }
-            else
-            {
-                tempSpawnPoint.AddRange(spawnPoints);
-            }
+            
         }
         
     }
-    private GameObject EnemyCreate(GameObject pref)
+
+      public void SetEnemysTargetAtack(GameObject temp)
+      {
+          if (tempTankOnScene.Count > 0)
+          {
+              foreach (var count in tempTankOnScene)
+              {
+                count.SetTarget(temp); 
+              }
+          }
+    
+}
+private GameObject EnemyCreate(GameObject pref)
     {
         var temp = Instantiate(pref);
         tempTankOnScene.Add(temp.GetComponent<Enemy>());

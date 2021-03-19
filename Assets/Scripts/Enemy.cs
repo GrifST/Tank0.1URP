@@ -62,11 +62,12 @@ public class Enemy : MonoBehaviour
         {
             trackStop();
         }
-
- 
-        
     }
-
+    public void SetTarget(GameObject player)
+    {
+        this.Player = player.transform;
+        rotationGun.SetTarget(this.Player);
+    }
     void SearchPlayer()
     {
 
