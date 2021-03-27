@@ -128,28 +128,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8850615021047637697, guid: 12e8a348747dd0d409007f7e2200c724,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: dfd52f3e9fe11294294e27fb18cfbb53, type: 2}
-    - target: {fileID: 8850615021047637697, guid: 12e8a348747dd0d409007f7e2200c724,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 5d095de063c482c4a8b4d113bb0c38a0,
-        type: 3}
-    - target: {fileID: 8850615021846732520, guid: 12e8a348747dd0d409007f7e2200c724,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 5d095de063c482c4a8b4d113bb0c38a0,
-        type: 3}
-    - target: {fileID: 8850615021846732520, guid: 12e8a348747dd0d409007f7e2200c724,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: dfd52f3e9fe11294294e27fb18cfbb53, type: 2}
     - target: {fileID: 8850615022295707696, guid: 12e8a348747dd0d409007f7e2200c724,
         type: 3}
       propertyPath: m_Name
@@ -209,21 +187,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850615022295707709, guid: 12e8a348747dd0d409007f7e2200c724,
-        type: 3}
-      propertyPath: m_LinearDrag
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850615022295707709, guid: 12e8a348747dd0d409007f7e2200c724,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850615022295707709, guid: 12e8a348747dd0d409007f7e2200c724,
-        type: 3}
-      propertyPath: m_Mass
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12e8a348747dd0d409007f7e2200c724, type: 3}
@@ -1692,22 +1655,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 26449800}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1770836944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1770836943}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edae66afb68b27c45ba56dd2b0ff5d26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speedMax: 100
-  torqueMax: 100
-  wheelLeft: {fileID: 2100000, guid: dfd52f3e9fe11294294e27fb18cfbb53, type: 2}
-  wheelRight: {fileID: 2100000, guid: dfd52f3e9fe11294294e27fb18cfbb53, type: 2}
 --- !u!1 &2027427286
 GameObject:
   m_ObjectHideFlags: 0
