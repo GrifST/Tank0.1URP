@@ -374,8 +374,8 @@ MonoBehaviour:
   keyRotateRight: d
   keyRotateLeft: a
   _shoting: {fileID: 8747657237199423226}
-  moveAcceleration: 0.2
-  moveSpeedMax: 5
+  moveAcceleration: 0.4
+  moveSpeedMax: 10
   trackLeft: {fileID: 4865664691228848300}
   trackRight: {fileID: 4865664691547377826}
 --- !u!61 &7240509493340094832

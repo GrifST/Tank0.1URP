@@ -1,0 +1,3314 @@
+fileFormatVersion: 2
+guid: c069ef8dd6388904b87a734e75f9dd6b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5531664424783481072
+    second: Tailset_0
+  - first:
+      213: -8214994187817688853
+    second: Tailset_1
+  - first:
+      213: 1740575238415330735
+    second: Tailset_2
+  - first:
+      213: -8233662543816733626
+    second: Tailset_3
+  - first:
+      213: -4066516344506234683
+    second: Tailset_4
+  - first:
+      213: 164801312309399465
+    second: Tailset_5
+  - first:
+      213: -7161460661041712347
+    second: Tailset_6
+  - first:
+      213: 3413385376966558699
+    second: Tailset_7
+  - first:
+      213: 959958883029153420
+    second: Tailset_8
+  - first:
+      213: -2112086338170780644
+    second: Tailset_9
+  - first:
+      213: 5114558310876695849
+    second: Tailset_10
+  - first:
+      213: 3784537854887648295
+    second: Tailset_11
+  - first:
+      213: 2884417797931266987
+    second: Tailset_12
+  - first:
+      213: 2218403484372878054
+    second: Tailset_13
+  - first:
+      213: 1662047255676592979
+    second: Tailset_14
+  - first:
+      213: -4547468414948792251
+    second: Tailset_15
+  - first:
+      213: 30846216026457070
+    second: Tailset_16
+  - first:
+      213: -5923637335040995144
+    second: Tailset_17
+  - first:
+      213: -7468952515599866714
+    second: Tailset_18
+  - first:
+      213: -8682974466170860451
+    second: Tailset_19
+  - first:
+      213: -6611744056522224477
+    second: Tailset_20
+  - first:
+      213: -4742107894251773789
+    second: Tailset_21
+  - first:
+      213: 8111573059523596547
+    second: Tailset_22
+  - first:
+      213: -331209855726471043
+    second: Tailset_23
+  - first:
+      213: -2889461627784391375
+    second: Tailset_24
+  - first:
+      213: -8821952844428658916
+    second: Tailset_25
+  - first:
+      213: 5996870825091322103
+    second: Tailset_26
+  - first:
+      213: -2793034649708456722
+    second: Tailset_27
+  - first:
+      213: 4711637006714063735
+    second: Tailset_28
+  - first:
+      213: 3277464203608288707
+    second: Tailset_29
+  - first:
+      213: 595596953534316513
+    second: Tailset_30
+  - first:
+      213: 2350181105075727889
+    second: Tailset_31
+  - first:
+      213: 8664013858368175535
+    second: Tailset_32
+  - first:
+      213: 7118300533947827604
+    second: Tailset_33
+  - first:
+      213: -7018515162732621520
+    second: Tailset_34
+  - first:
+      213: -1055526021015434528
+    second: Tailset_35
+  - first:
+      213: 1325771837781516047
+    second: Tailset_36
+  - first:
+      213: -6597668607988653691
+    second: Tailset_37
+  - first:
+      213: -5634987944265627779
+    second: Tailset_38
+  - first:
+      213: -3908136974149459794
+    second: Tailset_39
+  - first:
+      213: -7315256608156824387
+    second: Tailset_40
+  - first:
+      213: -3534433153122861254
+    second: Tailset_41
+  - first:
+      213: 2841522957059855006
+    second: Tailset_42
+  - first:
+      213: -6271831572627867197
+    second: Tailset_0
+  - first:
+      213: -956876727787679925
+    second: Tailset_1
+  - first:
+      213: 613371550036082516
+    second: Tailset_2
+  - first:
+      213: 6419495217760914058
+    second: Tailset_3
+  - first:
+      213: 3953608785283874988
+    second: Tailset_4
+  - first:
+      213: -1255401370669219609
+    second: Tailset_5
+  - first:
+      213: -4893863230145404911
+    second: Tailset_6
+  - first:
+      213: 3562061483149205865
+    second: Tailset_7
+  - first:
+      213: -8631522864410331455
+    second: Tailset_8
+  - first:
+      213: 3000162903603498024
+    second: Tailset_9
+  - first:
+      213: -5888317212866791163
+    second: Tailset_10
+  - first:
+      213: -1381277215550868002
+    second: Tailset_11
+  - first:
+      213: -2994313320083572822
+    second: Tailset_12
+  - first:
+      213: 5296824780899714783
+    second: Tailset_13
+  - first:
+      213: 8572491510334229725
+    second: Tailset_14
+  - first:
+      213: -8521583931763009942
+    second: Tailset_15
+  - first:
+      213: -6659703522148371876
+    second: Tailset_16
+  - first:
+      213: 7249288228192392211
+    second: Tailset_17
+  - first:
+      213: -5483418953644587973
+    second: Tailset_18
+  - first:
+      213: -6440107420111334670
+    second: Tailset_19
+  - first:
+      213: -5612236135123227368
+    second: Tailset_20
+  - first:
+      213: -9177426471811291488
+    second: Tailset_21
+  - first:
+      213: 3460230636142684166
+    second: Tailset_22
+  - first:
+      213: 1155368656058190713
+    second: Tailset_23
+  - first:
+      213: 8831435446161144259
+    second: Tailset_24
+  - first:
+      213: 7349420513416438376
+    second: Tailset_25
+  - first:
+      213: 8424964765417193485
+    second: Tailset_26
+  - first:
+      213: -5661199806618058633
+    second: Tailset_27
+  - first:
+      213: 2996638780280773155
+    second: Tailset_28
+  - first:
+      213: 7350058898370875741
+    second: Tailset_29
+  - first:
+      213: 2615675780902692578
+    second: Tailset_30
+  - first:
+      213: 5413499913476291815
+    second: Tailset_31
+  - first:
+      213: 3889682878528064778
+    second: Tailset_32
+  - first:
+      213: 1779251360253255064
+    second: Tailset_33
+  - first:
+      213: 4596246712862580364
+    second: Tailset_34
+  - first:
+      213: -5685725524195713910
+    second: Tailset_35
+  - first:
+      213: 3064096155973693764
+    second: Tailset_36
+  - first:
+      213: -4495932540829971629
+    second: Tailset_37
+  - first:
+      213: 5559814317050013269
+    second: Tailset_38
+  - first:
+      213: 5133384133027666947
+    second: Tailset_39
+  - first:
+      213: 1004901463567555322
+    second: Tailset_40
+  - first:
+      213: -2085283586308778767
+    second: Tailset_41
+  - first:
+      213: -8606748384513908846
+    second: Tailset_42
+  - first:
+      213: -6694890693866576584
+    second: Tailset_43
+  - first:
+      213: 8633736930310467253
+    second: Tailset_44
+  - first:
+      213: 9141418966110997393
+    second: Tailset_45
+  - first:
+      213: -7746181066066348131
+    second: Tailset_46
+  - first:
+      213: -8737612713649413135
+    second: Tailset_47
+  - first:
+      213: -7469946230550450684
+    second: Tailset_48
+  - first:
+      213: -1164018058093561086
+    second: Tailset_49
+  - first:
+      213: 9117746477000675821
+    second: Tailset_50
+  - first:
+      213: -2088747423714626900
+    second: Tailset_51
+  - first:
+      213: -8259614919624969321
+    second: Tailset_52
+  - first:
+      213: 5031668192855486642
+    second: Tailset_53
+  - first:
+      213: -5379028458286121551
+    second: Tailset_54
+  - first:
+      213: -5818226710710930497
+    second: Tailset_55
+  - first:
+      213: 1037688864104572615
+    second: Tailset_56
+  - first:
+      213: -4280397873647645504
+    second: Tailset_57
+  - first:
+      213: 3116683030696597357
+    second: Tailset_58
+  - first:
+      213: 5424540701442202979
+    second: Tailset_59
+  - first:
+      213: 3009554728668177406
+    second: Tailset_60
+  - first:
+      213: -775354479299059744
+    second: Tailset_61
+  - first:
+      213: 5821618993967743357
+    second: Tailset_62
+  - first:
+      213: -2153015168863626661
+    second: Tailset_63
+  - first:
+      213: 5304765622469946050
+    second: Tailset_64
+  - first:
+      213: 3073213632065313354
+    second: Tailset_65
+  - first:
+      213: 6505814595637147505
+    second: Tailset_66
+  - first:
+      213: 7808832565895561828
+    second: Tailset_43
+  - first:
+      213: -4453208694288648301
+    second: Tailset_44
+  - first:
+      213: -620404764086108498
+    second: Tailset_45
+  - first:
+      213: 3383104101584953586
+    second: Tailset_46
+  - first:
+      213: 1947806640856513202
+    second: Tailset_47
+  - first:
+      213: 6359970589210373224
+    second: Tailset_48
+  - first:
+      213: -1984035266739932624
+    second: Tailset_49
+  - first:
+      213: -2540145300898960719
+    second: Tailset_50
+  - first:
+      213: -1698364700153744911
+    second: Tailset_51
+  - first:
+      213: -8494579366529823226
+    second: Tailset_52
+  - first:
+      213: 6892413526338839613
+    second: Tailset_53
+  - first:
+      213: -686522924424317518
+    second: Tailset_54
+  - first:
+      213: 2577518330046353241
+    second: Tailset_55
+  - first:
+      213: -9102760165063113420
+    second: Tailset_56
+  - first:
+      213: 977877518952570774
+    second: Tailset_57
+  - first:
+      213: 7639315600137689702
+    second: Tailset_58
+  - first:
+      213: 375662005970138985
+    second: Tailset_59
+  - first:
+      213: -8982764502377903873
+    second: Tailset_60
+  - first:
+      213: 3244054290227997391
+    second: Tailset_61
+  - first:
+      213: 3403823316803935159
+    second: Tailset_62
+  - first:
+      213: 2508546916364169535
+    second: Tailset_63
+  - first:
+      213: -4782229787345306011
+    second: Tailset_64
+  - first:
+      213: -5282192219237108175
+    second: Tailset_65
+  - first:
+      213: -8126082333859694649
+    second: Tailset_66
+  - first:
+      213: 3327655518745332857
+    second: Tailset_67
+  - first:
+      213: -5052617955638181951
+    second: Tailset_68
+  - first:
+      213: -4592377801622332211
+    second: Tailset_69
+  - first:
+      213: -5321234392680922943
+    second: Tailset_70
+  - first:
+      213: -6237779717198379278
+    second: Tailset_67
+  - first:
+      213: 7071852498107081344
+    second: Tailset_68
+  - first:
+      213: -1899877626925864585
+    second: Tailset_69
+  - first:
+      213: -7418393866773120490
+    second: Tailset_70
+  - first:
+      213: 365720967998359629
+    second: Tailset_71
+  - first:
+      213: -5668708232259113136
+    second: Tailset_72
+  - first:
+      213: -2531633185209966298
+    second: Tailset_73
+  - first:
+      213: 5582136259245473760
+    second: Tailset_74
+  - first:
+      213: -6580523670591785599
+    second: Tailset_75
+  - first:
+      213: -4383206461324590854
+    second: Tailset_76
+  - first:
+      213: -829590780773991503
+    second: Tailset_77
+  - first:
+      213: 7835265700893450110
+    second: Tailset_78
+  - first:
+      213: 8117491981479203010
+    second: Tailset_79
+  - first:
+      213: 3160175443113675675
+    second: Tailset_80
+  - first:
+      213: 8404597611142456889
+    second: Tailset_81
+  - first:
+      213: -4655501935613574943
+    second: Tailset_82
+  - first:
+      213: 5655667635005703702
+    second: Tailset_83
+  - first:
+      213: 8851519748987678033
+    second: Tailset_84
+  - first:
+      213: -2365452826863227061
+    second: Tailset_85
+  - first:
+      213: -2661361869211198073
+    second: Tailset_86
+  - first:
+      213: 3904652544485921697
+    second: Tailset_87
+  - first:
+      213: 3280988409959824875
+    second: Tailset_88
+  - first:
+      213: 4619732061488039108
+    second: Tailset_89
+  - first:
+      213: -346973810933388114
+    second: Tailset_90
+  - first:
+      213: -1460849803992546102
+    second: Tailset_91
+  - first:
+      213: 3168303923137480875
+    second: Tailset_92
+  - first:
+      213: -1297479122594196252
+    second: Tailset_93
+  - first:
+      213: -7377543451976613934
+    second: Tailset_94
+  - first:
+      213: 4080747935026552568
+    second: Tailset_95
+  - first:
+      213: -2003936512104496170
+    second: Tailset_96
+  - first:
+      213: -6727989228134053510
+    second: Tailset_97
+  - first:
+      213: 5756007313937005265
+    second: Tailset_98
+  - first:
+      213: 7959102905919597152
+    second: Tailset_99
+  - first:
+      213: 4809597217359126280
+    second: Tailset_100
+  - first:
+      213: 7694989388020155120
+    second: Tailset_101
+  - first:
+      213: -7428187515721008379
+    second: Tailset_102
+  - first:
+      213: 6007734839235557781
+    second: Tailset_103
+  - first:
+      213: -2723958944734644616
+    second: Tailset_104
+  - first:
+      213: 1357373397092347505
+    second: Tailset_105
+  - first:
+      213: -2057605551314880668
+    second: Tailset_106
+  - first:
+      213: -2106250141284190407
+    second: Tailset_107
+  - first:
+      213: -296050731282053536
+    second: Tailset_108
+  - first:
+      213: -3130193925382852903
+    second: Tailset_109
+  - first:
+      213: -1645510950714540714
+    second: Tailset_110
+  - first:
+      213: 4162530884493983660
+    second: Tailset_111
+  - first:
+      213: -2784679469231654930
+    second: Tailset_112
+  - first:
+      213: -3040463741954580206
+    second: Tailset_113
+  - first:
+      213: -8067535468027557654
+    second: Tailset_114
+  - first:
+      213: -5011126268557043523
+    second: Tailset_115
+  - first:
+      213: -7704617376581734128
+    second: Tailset_116
+  - first:
+      213: -5894196279496981819
+    second: Tailset_117
+  - first:
+      213: -5916640102003306108
+    second: Tailset_118
+  - first:
+      213: -2032110711161524216
+    second: Tailset_119
+  - first:
+      213: -3554188477204643492
+    second: Tailset_120
+  - first:
+      213: 6300081477198625974
+    second: Tailset_121
+  - first:
+      213: -8410389904064393255
+    second: Tailset_122
+  - first:
+      213: 8985221086059181339
+    second: Tailset_123
+  - first:
+      213: 4925376250897008462
+    second: Tailset_124
+  - first:
+      213: 7966126882296829590
+    second: Tailset_125
+  - first:
+      213: 8427744410661313905
+    second: Tailset_126
+  - first:
+      213: 3233797519898237271
+    second: Tailset_127
+  - first:
+      213: -7876920372670811717
+    second: Tailset_128
+  - first:
+      213: 2151973496905435222
+    second: Tailset_129
+  - first:
+      213: 3454062616398345648
+    second: Tailset_130
+  - first:
+      213: 3736576572967297822
+    second: Tailset_131
+  - first:
+      213: 3729975246303991965
+    second: Tailset_132
+  - first:
+      213: -6555416042291063991
+    second: Tailset_133
+  - first:
+      213: -5848232126902809721
+    second: Tailset_134
+  - first:
+      213: -5299206370158659811
+    second: Tailset_135
+  - first:
+      213: -1441583176978767305
+    second: Tailset_136
+  - first:
+      213: 7800985229089648250
+    second: Tailset_137
+  - first:
+      213: -2244292697054094793
+    second: Tailset_138
+  - first:
+      213: -6178059193050289174
+    second: Tailset_139
+  - first:
+      213: 5641383773383649701
+    second: Tailset_140
+  - first:
+      213: 8896705451232405903
+    second: Tailset_141
+  - first:
+      213: -8873899415197209939
+    second: Tailset_142
+  - first:
+      213: -6964680414793500164
+    second: Tailset_143
+  - first:
+      213: -7025927201752341190
+    second: Tailset_144
+  - first:
+      213: -6921969199280365335
+    second: Tailset_145
+  - first:
+      213: -5375033747877831441
+    second: Tailset_146
+  - first:
+      213: 2223749551129957977
+    second: Tailset_147
+  - first:
+      213: -3203323113130185914
+    second: Tailset_148
+  - first:
+      213: 4427830681099382129
+    second: Tailset_149
+  - first:
+      213: -1706998132748997438
+    second: Tailset_150
+  - first:
+      213: -1735022603520509510
+    second: Tailset_151
+  - first:
+      213: 4137112717785713991
+    second: Tailset_152
+  - first:
+      213: -2039859106435200360
+    second: Tailset_153
+  - first:
+      213: -7292832489108895938
+    second: Tailset_154
+  - first:
+      213: -1005885387966739186
+    second: Tailset_155
+  - first:
+      213: -5853955456454882298
+    second: Tailset_156
+  - first:
+      213: -3767990086120626354
+    second: Tailset_157
+  - first:
+      213: -5402423967487042354
+    second: Tailset_158
+  - first:
+      213: 6576937903874906827
+    second: Tailset_159
+  - first:
+      213: 1005223360117690935
+    second: Tailset_160
+  - first:
+      213: 7830094206098922839
+    second: Tailset_161
+  - first:
+      213: -5651574113803392867
+    second: Tailset_162
+  - first:
+      213: 8727868632287241976
+    second: Tailset_163
+  - first:
+      213: -1206534561803302371
+    second: Tailset_164
+  - first:
+      213: -8691128373508577580
+    second: Tailset_165
+  - first:
+      213: 4955041289153338862
+    second: Tailset_166
+  - first:
+      213: 6751687557266454578
+    second: Tailset_167
+  - first:
+      213: 6585745166409022802
+    second: Tailset_168
+  - first:
+      213: 5222140433962316036
+    second: Tailset_169
+  - first:
+      213: 6338579433560558739
+    second: Tailset_170
+  - first:
+      213: -1088809472981902025
+    second: Tailset_171
+  - first:
+      213: -7799162916284841816
+    second: Tailset_172
+  - first:
+      213: 2431616817722609944
+    second: Tailset_173
+  - first:
+      213: 5811739689941778343
+    second: Tailset_174
+  - first:
+      213: 1727817078427894612
+    second: Tailset_175
+  - first:
+      213: -2925281318406093807
+    second: Tailset_176
+  - first:
+      213: 8710123817306894650
+    second: Tailset_177
+  - first:
+      213: -3940759273476424857
+    second: Tailset_178
+  - first:
+      213: 3950878729404461281
+    second: Tailset_179
+  - first:
+      213: 515412145060559863
+    second: Tailset_180
+  - first:
+      213: -8272042144457632263
+    second: Tailset_181
+  - first:
+      213: 8851812035520031920
+    second: Tailset_182
+  - first:
+      213: 6846229368451685604
+    second: Tailset_183
+  - first:
+      213: -4597903809932205973
+    second: Tailset_184
+  - first:
+      213: 3370715051077201946
+    second: Tailset_185
+  - first:
+      213: 7896101289034462609
+    second: Tailset_186
+  - first:
+      213: -5323980115873857828
+    second: Tailset_187
+  - first:
+      213: -6819470756825150807
+    second: Tailset_188
+  - first:
+      213: -5574850072834137046
+    second: Tailset_189
+  - first:
+      213: 1210717059069312524
+    second: Tailset_190
+  - first:
+      213: 3818883457277609313
+    second: Tailset_191
+  - first:
+      213: 4431694451512062974
+    second: Tailset_192
+  - first:
+      213: 6456347907452672449
+    second: Tailset_193
+  - first:
+      213: 983165839933457085
+    second: Tailset_194
+  - first:
+      213: 5775211338784663837
+    second: Tailset_195
+  - first:
+      213: -3804062711267376224
+    second: Tailset_196
+  - first:
+      213: -5148490005604425161
+    second: Tailset_197
+  - first:
+      213: -4640000987165564458
+    second: Tailset_198
+  - first:
+      213: -1389538153005510655
+    second: Tailset_199
+  - first:
+      213: -7366774270521561078
+    second: Tailset_200
+  - first:
+      213: 4795957869327036823
+    second: Tailset_201
+  - first:
+      213: 2158361586970854595
+    second: Tailset_202
+  - first:
+      213: -2933611083930949834
+    second: Tailset_203
+  - first:
+      213: -1630273544985900803
+    second: Tailset_204
+  - first:
+      213: -4321525844259759415
+    second: Tailset_205
+  - first:
+      213: -2631066723114464157
+    second: Tailset_206
+  - first:
+      213: 1250854128233941460
+    second: Tailset_207
+  - first:
+      213: 3929533270634994970
+    second: Tailset_208
+  - first:
+      213: 7272274876553030371
+    second: Tailset_209
+  - first:
+      213: 7827882941198770446
+    second: Tailset_210
+  - first:
+      213: 4386656922059801478
+    second: Tailset_211
+  - first:
+      213: -5764574825003025631
+    second: Tailset_212
+  - first:
+      213: 3053236266371759856
+    second: Tailset_213
+  - first:
+      213: 7962499308022984243
+    second: Tailset_214
+  - first:
+      213: -5362046432693209295
+    second: Tailset_215
+  - first:
+      213: -2280387551748218507
+    second: Tailset_216
+  - first:
+      213: 950433824378208644
+    second: Tailset_217
+  - first:
+      213: 4829994401766444749
+    second: Tailset_218
+  - first:
+      213: -4762344076894106463
+    second: Tailset_219
+  - first:
+      213: -4846284219566393441
+    second: Tailset_220
+  - first:
+      213: 1134727583223797642
+    second: Tailset_221
+  - first:
+      213: 2829944437085539938
+    second: Tailset_222
+  - first:
+      213: 3959342520259455690
+    second: Tailset_223
+  - first:
+      213: -2845946197318747176
+    second: Tailset_224
+  - first:
+      213: 4359481232531531237
+    second: Tailset_225
+  - first:
+      213: -8838004375127691711
+    second: Tailset_226
+  - first:
+      213: -3549487127006785464
+    second: Tailset_227
+  - first:
+      213: 3148831039913101309
+    second: Tailset_228
+  - first:
+      213: -1813868065810361202
+    second: Tailset_229
+  - first:
+      213: -7305334380825707179
+    second: Tailset_230
+  - first:
+      213: -1802730693310606973
+    second: Tailset_231
+  - first:
+      213: -8706336174416653455
+    second: Tailset_232
+  - first:
+      213: -6326728433749547821
+    second: Tailset_233
+  - first:
+      213: 2408934709707992612
+    second: Tailset_234
+  - first:
+      213: 8035965749064866544
+    second: Tailset_235
+  - first:
+      213: -8587687348888238339
+    second: Tailset_236
+  - first:
+      213: 3956485390219801244
+    second: Tailset_237
+  - first:
+      213: -737444434336908198
+    second: Tailset_238
+  - first:
+      213: 2241095576605242976
+    second: Tailset_239
+  - first:
+      213: 4619082431737678964
+    second: Tailset_240
+  - first:
+      213: -5356404792273327788
+    second: Tailset_241
+  - first:
+      213: -3096407568443715585
+    second: Tailset_242
+  - first:
+      213: 5844060855323535257
+    second: Tailset_243
+  - first:
+      213: -2390471023652572906
+    second: Tailset_244
+  - first:
+      213: -5486482054712436340
+    second: Tailset_245
+  - first:
+      213: 791289600512733841
+    second: Tailset_246
+  - first:
+      213: 669170427021533611
+    second: Tailset_247
+  - first:
+      213: 6877483500571587713
+    second: Tailset_248
+  - first:
+      213: 7334248172205941651
+    second: Tailset_249
+  - first:
+      213: 2527870163842828681
+    second: Tailset_250
+  - first:
+      213: -452599236214461575
+    second: Tailset_251
+  - first:
+      213: 8845629875588247902
+    second: Tailset_252
+  - first:
+      213: -3401638539472258947
+    second: Tailset_253
+  - first:
+      213: 830320111951606167
+    second: Tailset_254
+  - first:
+      213: -6877148187097962499
+    second: Tailset_255
+  - first:
+      213: 590786698220417564
+    second: Tailset_256
+  - first:
+      213: 3448488886347362885
+    second: Tailset_257
+  - first:
+      213: 2490543936955770558
+    second: Tailset_258
+  - first:
+      213: 7694089612099724153
+    second: Tailset_259
+  - first:
+      213: 8590316600410220537
+    second: Tailset_260
+  - first:
+      213: -7233454465184311471
+    second: Tailset_261
+  - first:
+      213: -2899783646844752442
+    second: Tailset_262
+  - first:
+      213: -8732806280416382097
+    second: Tailset_263
+  - first:
+      213: -5562963198117237562
+    second: Tailset_264
+  - first:
+      213: 7578517132404472612
+    second: Tailset_265
+  - first:
+      213: 8316647273893225666
+    second: Tailset_266
+  - first:
+      213: 1126821656158080701
+    second: Tailset_267
+  - first:
+      213: 1238423119442779432
+    second: Tailset_268
+  - first:
+      213: -6572011295750707845
+    second: Tailset_269
+  - first:
+      213: -774375305329245513
+    second: Tailset_270
+  - first:
+      213: 6212263496507511743
+    second: Tailset_271
+  - first:
+      213: 2019590567081077217
+    second: Tailset_272
+  - first:
+      213: 2165735974635298089
+    second: Tailset_273
+  - first:
+      213: -5873347293285133530
+    second: Tailset_274
+  - first:
+      213: -3453916112057399751
+    second: Tailset_275
+  - first:
+      213: -2201648151217874087
+    second: Tailset_276
+  - first:
+      213: 5494169575046029073
+    second: Tailset_277
+  - first:
+      213: 1707083393554766098
+    second: Tailset_278
+  - first:
+      213: -5020382402134339243
+    second: Tailset_279
+  - first:
+      213: -4176740837721222531
+    second: Tailset_280
+  - first:
+      213: -8352734837141674896
+    second: Tailset_281
+  - first:
+      213: 7398854686685315020
+    second: Tailset_282
+  - first:
+      213: -2680667637992685230
+    second: Tailset_283
+  - first:
+      213: 3987036536745602045
+    second: Tailset_284
+  - first:
+      213: 655225672791531577
+    second: Tailset_285
+  - first:
+      213: -3389574504141198227
+    second: Tailset_286
+  - first:
+      213: 6929950063848076895
+    second: Tailset_287
+  - first:
+      213: -1608591786487531850
+    second: Tailset_288
+  - first:
+      213: 269413626897536534
+    second: Tailset_289
+  - first:
+      213: -6981335145141589621
+    second: Tailset_290
+  - first:
+      213: -1629395369289210252
+    second: Tailset_291
+  - first:
+      213: 6782085624400546113
+    second: Tailset_292
+  - first:
+      213: -1156002712431641550
+    second: Tailset_293
+  - first:
+      213: -6885002248222671272
+    second: Tailset_294
+  - first:
+      213: -7819475515449650062
+    second: Tailset_295
+  - first:
+      213: 3590599124216368928
+    second: Tailset_296
+  - first:
+      213: 2096342358655511223
+    second: Tailset_297
+  - first:
+      213: -3263658976666050538
+    second: Tailset_298
+  - first:
+      213: -4389559889341208043
+    second: Tailset_71
+  - first:
+      213: -3710106851982760063
+    second: Tailset_72
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tailset_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9bf6e0a6af5f8a0800000000000000
+      internalID: -6271831572627867197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f80629fad78b2f0800000000000000
+      internalID: -956876727787679925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f3b3bcc22238800800000000000000
+      internalID: 613371550036082516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a45fb73e0a61950800000000000000
+      internalID: 6419495217760914058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca085bb3e3a0ed630800000000000000
+      internalID: 3953608785283874988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e009b2da1be39ee0800000000000000
+      internalID: -1255401370669219609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11066db2251851cb0800000000000000
+      internalID: -4893863230145404911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961a53bdb0cfe6130800000000000000
+      internalID: 3562061483149205865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6f824cfaba63880800000000000000
+      internalID: -8631522864410331455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c4799e348b2a920800000000000000
+      internalID: 3000162903603498024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509b14a41be784ea0800000000000000
+      internalID: -5888317212866791163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5ffb6d0b7b4dce0800000000000000
+      internalID: -1381277215550868002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_12
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7b23266ef0276d0800000000000000
+      internalID: -2994313320083572822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_13
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6830f031a128940800000000000000
+      internalID: 5296824780899714783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc06811c9b97f670800000000000000
+      internalID: 8572491510334229725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66d69730904db980800000000000000
+      internalID: -8521583931763009942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52bde46eeaf393a0800000000000000
+      internalID: -6659703522148371876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31414d33c35aa9460800000000000000
+      internalID: 7249288228192392211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34ce59938bf6e3b0800000000000000
+      internalID: -5483418953644587973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f218ec2c6420a6a0800000000000000
+      internalID: -6440107420111334670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d6e5258f45d12b0800000000000000
+      internalID: -5612236135123227368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6eb6b7f3b33a080800000000000000
+      internalID: -9177426471811291488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_22
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60865343e65350030800000000000000
+      internalID: 3460230636142684166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b08f8dba1b80010800000000000000
+      internalID: 1155368656058190713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_24
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c97a315fbf8f8a70800000000000000
+      internalID: 8831435446161144259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862e72f94036ef560800000000000000
+      internalID: 7349420513416438376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_26
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00cfd711dc7be470800000000000000
+      internalID: 8424964765417193485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_27
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770450c25c06f61b0800000000000000
+      internalID: -5661199806618058633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a9bc20813369920800000000000000
+      internalID: 2996638780280773155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_29
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51589330a7a00660800000000000000
+      internalID: 7350058898370875741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e62c48a34fbc4420800000000000000
+      internalID: 2615675780902692578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecbc564d7d902b40800000000000000
+      internalID: 5413499913476291815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d859738fdeaf530800000000000000
+      internalID: 3889682878528064778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d960e6fab21b810800000000000000
+      internalID: 1779251360253255064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e1b3c880629cf30800000000000000
+      internalID: 4596246712862580364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c51ff82ce3811b0800000000000000
+      internalID: -5685725524195713910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_36
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441b376383bd58a20800000000000000
+      internalID: 3064096155973693764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_37
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bc5b1bc2d3b91c0800000000000000
+      internalID: -4495932540829971629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_38
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556a5e80aad682d40800000000000000
+      internalID: 5559814317050013269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_39
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 152
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c9db0dba17d3740800000000000000
+      internalID: 5133384133027666947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afad6329e8022fd00800000000000000
+      internalID: 1004901463567555322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4dc1660a59f03e0800000000000000
+      internalID: -2085283586308778767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f91edd1ffae8880800000000000000
+      internalID: -8606748384513908846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_43
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46205b088db8e5c60800000000000000
+      internalID: 7808832565895561828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3977e3269460332c0800000000000000
+      internalID: -4453208694288648301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaeffa37721e367f0800000000000000
+      internalID: -620404764086108498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_46
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f06325814333fe20800000000000000
+      internalID: 3383104101584953586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_47
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba3667e1dff70b10800000000000000
+      internalID: 1947806640856513202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_48
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ce0d7ed87234850800000000000000
+      internalID: 6359970589210373224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_49
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0327e10df6a4774e0800000000000000
+      internalID: -1984035266739932624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba2a0e9e479fbcd0800000000000000
+      internalID: -2540145300898960719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_51
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1f544bd423e68e0800000000000000
+      internalID: -1698364700153744911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_52
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e80a582113d1a80800000000000000
+      internalID: -8494579366529823226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34268aa595c6af50800000000000000
+      internalID: 6892413526338839613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_54
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5b68f990bf876f0800000000000000
+      internalID: -686522924424317518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_55
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f8870d34f25c320800000000000000
+      internalID: 2577518330046353241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43546ddbbdf7ca180800000000000000
+      internalID: -9102760165063113420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_57
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f12072c6e129d00800000000000000
+      internalID: 977877518952570774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_58
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a9e41401d440a60800000000000000
+      internalID: 7639315600137689702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967f575aa9e963500800000000000000
+      internalID: 375662005970138985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_60
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8c6ce174fc65380800000000000000
+      internalID: -8982764502377903873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_61
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca2f117032350d20800000000000000
+      internalID: 3244054290227997391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_62
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb5a4cb54fcc3f20800000000000000
+      internalID: 3403823316803935159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_63
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31b94c212620d220800000000000000
+      internalID: 2508546916364169535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_64
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ebdf2885b12adb0800000000000000
+      internalID: -4782229787345306011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_65
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1363a01b922e1b6b0800000000000000
+      internalID: -5282192219237108175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c737b2db2b5a3f80800000000000000
+      internalID: -8126082333859694649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_67
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f601497564fe69a0800000000000000
+      internalID: -6237779717198379278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_68
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082a1a5f064442260800000000000000
+      internalID: 7071852498107081344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_69
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7792f524d5742a5e0800000000000000
+      internalID: -1899877626925864585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_70
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a3d0f15129c0990800000000000000
+      internalID: -7418393866773120490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_71
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51aa38b99862513c0800000000000000
+      internalID: -4389559889341208043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_72
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18723d0a97d038cc0800000000000000
+      internalID: -3710106851982760063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62128fdf705dddcd0800000000000000
+      internalID: -2531633185209966298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_74
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef77243a5bb77d40800000000000000
+      internalID: 5582136259245473760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_75
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185b35236984da4a0800000000000000
+      internalID: -6580523670591785599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_76
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af00d8752f8bb23c0800000000000000
+      internalID: -4383206461324590854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_77
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbf60b8493bc74f0800000000000000
+      internalID: -829590780773991503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f5e8654a47cbc60800000000000000
+      internalID: 7835265700893450110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_79
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c05627e2ff17a070800000000000000
+      internalID: 8117491981479203010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_80
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b04ba72d23bdb20800000000000000
+      internalID: 3160175443113675675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_81
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9362e347ff023a470800000000000000
+      internalID: 8404597611142456889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e00c9cc7a5546fb0800000000000000
+      internalID: -4655501935613574943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_83
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6164030cfb7fc7e40800000000000000
+      internalID: 5655667635005703702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_84
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15de3c8705ae6da70800000000000000
+      internalID: 8851519748987678033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_85
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fafd9cf293c2fd0800000000000000
+      internalID: -2365452826863227061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_86
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d95eefa71f01bd0800000000000000
+      internalID: -2661361869211198073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_87
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3986d2dcc103630800000000000000
+      internalID: 3904652544485921697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed34df4399688d20800000000000000
+      internalID: 3280988409959824875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_89
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c44a7265d59c1040800000000000000
+      internalID: 4619732061488039108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_90
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaca3f4482d4f2bf0800000000000000
+      internalID: -346973810933388114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_91
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac443dad7d40abbe0800000000000000
+      internalID: -1460849803992546102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_92
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba80617b1a318fb20800000000000000
+      internalID: 3168303923137480875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e49942cc9d6efde0800000000000000
+      internalID: -1297479122594196252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_94
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfbced7153bd9990800000000000000
+      internalID: -7377543451976613934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_95
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe9a2d40aab1a830800000000000000
+      internalID: 4080747935026552568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_96
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3839b0c569034e0800000000000000
+      internalID: -2003936512104496170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tailset_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a794a64817161a2a0800000000000000
+      internalID: -6727989228134053510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
