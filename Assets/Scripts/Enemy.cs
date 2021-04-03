@@ -54,14 +54,14 @@ public class Enemy : MonoBehaviour
             SearchPlayer();
         }
 
-        if (currentSpeed > 0)
+      /*  if (currentSpeed > 0)
         {
             trackStart();
         }
         else
         {
             trackStop();
-        }
+        }*/
     }
     public void SetTarget(GameObject player)
     {

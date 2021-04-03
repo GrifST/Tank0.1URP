@@ -8,7 +8,7 @@ public class ExtraLife : MonoBehaviour
     [SerializeField] private GameManager GameManager;
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<Tank>() != null)
+        if (collision.GetComponent<TankController>() != null)
         {
           GameManager.LivesScore(bonusLive);
             Destroy(gameObject);

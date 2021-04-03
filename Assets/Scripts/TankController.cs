@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class TankController : MonoBehaviour
 {
+    [Header("Ссылка на пушку")]
+    [SerializeField] private Shoting _shoting; 
+
     public float speedMax = 10f;
     public float torqueMax = 10f;
 
@@ -23,6 +26,11 @@ public class TankController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (Input.GetMouseButton(0))
+        {
+            _shoting.Shoot();
+        }
+
         vertical = Input.GetAxis("Vertical"); //вперед/назад
         horizontal = Input.GetAxis("Horizontal"); //лево/право
         if (isDrift) return; //Блокируем управление в заносе
