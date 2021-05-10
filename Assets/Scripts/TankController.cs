@@ -90,8 +90,8 @@ public class TankController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && !isDrift && vertical != 0)
         {
             isDrift = true;
-            rigidBody.drag *= .25f;
-            rigidBody.angularDrag *= .05f;
+            rigidBody.drag *= .24f;  //25f
+            rigidBody.angularDrag *= .05f;  //05f
             wheelSpeedLeft = 0;
             wheelSpeedRight = 0;
         }

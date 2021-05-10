@@ -6,12 +6,19 @@ public class RotationGunEnemy : BaseTank
 
     [SerializeField] Shoting _shoting;
     [SerializeField] Transform target;
+    [SerializeField] Transform firepoint;
     [SerializeField] private float angle = 360;
     public float timer = 0f;
     public float _rateFireoffspeed = 3f;
     private bool acessFire;
 
+    void Start()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(firepoint.position, -Vector2.up);
 
+        
+
+    }
     public void SetTarget(Transform target)
     {
         this.target = target;
@@ -20,7 +27,8 @@ public class RotationGunEnemy : BaseTank
 
     private void Update()
     {
-
+        Debug.DrawRay(firepoint.position, transform.up, Color.green);
+        Debug.Log(target);
 
         if (target == null) return;
         base.RotationOnTarget(target.transform.position, SpeedTorward);

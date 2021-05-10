@@ -49,7 +49,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 8
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 5deff0a435f7aff43be451055a5d555d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -97,9 +97,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  rateFire: 2
-  Hiteffect: {fileID: 1563604551022521784, guid: e7b941b788a99ed45a77baf95fa3cf5a,
-    type: 3}
+  rateFire: 1
+  damage: 10
+  Hiteffect: {fileID: 100004, guid: b46890100828db6429ff69c322b45893, type: 3}
 --- !u!61 &-6765619435871806929
 BoxCollider2D:
   m_ObjectHideFlags: 0

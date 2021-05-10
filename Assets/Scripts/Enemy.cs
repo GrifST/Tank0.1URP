@@ -79,7 +79,8 @@ public class Enemy : MonoBehaviour
         if (dist > StopDist)
         {
            float c_speed = Mathf.Clamp((dist - StopDist) * acceleration, -speed, speed);
-            rb.velocity = direction.normalized * c_speed ;
+            rb.velocity = direction.normalized * c_speed;
+            
         }
         else if (dist < RetreatDist)
         {
