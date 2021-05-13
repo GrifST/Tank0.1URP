@@ -27,15 +27,17 @@ public class SpawnEnemyControler : MonoBehaviour
         EnemyGo();
     }
 
-    private void Update()
+   /* private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+       if (Input.GetKeyDown(KeyCode.Space))
         {
             DestroyAll(tempTankOnScene);
-        }
+        }*/
+
+    public void bonusDestroy()
+    {
+        DestroyAll(tempTankOnScene);
     }
-
-
     private void EnemyGo()
     {
         // Условие победы

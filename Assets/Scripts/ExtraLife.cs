@@ -11,7 +11,7 @@ public class ExtraLife : MonoBehaviour
         if (collision.GetComponent<TankController>() != null)
         {
           GameManager.LivesScore(bonusLive);
-            Destroy(gameObject);
+          Destroy(gameObject);
         }
     }
 }
