@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Croshire : MonoBehaviour
 {
     [Header("Прицел")]
-    [SerializeField] public Slider croshire;
+    [SerializeField] private GameObject croshire;
     private Vector3 croshirePos;
     
     

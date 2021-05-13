@@ -15,6 +15,7 @@ public class HelthControl : MonoBehaviour
     [SerializeField] private float _maxShieldPoint;
     private float _currentSP;
     private float _currentHP;
+    
 
     public StatSetter Setter
     {
@@ -55,4 +56,5 @@ public class HelthControl : MonoBehaviour
         OnDead?.Invoke(player);
         OnEnemyDead?.Invoke(Enemy);
     }
+   
 }
