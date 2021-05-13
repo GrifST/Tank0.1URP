@@ -1,11 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class SpawnEnemyControler : MonoBehaviour
 {
-
     [SerializeField] private GameObject prefEnemy;
     [SerializeField] private StatSetter _statSetterEnemy;
     [SerializeField] private int kills;
@@ -20,32 +21,37 @@ public class SpawnEnemyControler : MonoBehaviour
 
     void Start()
     {
-       
         killsUi.text = kills.ToString();
         spawnPoints.AddRange(FindObjectsOfType<SpawnPoint>());
         tempSpawnPoint.AddRange(spawnPoints);
         EnemyGo();
-
     }
 
-   
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            DestroyAll(tempTankOnScene);
+        }
+    }
+
 
     private void EnemyGo()
     {
         // Условие победы
-        if (tankRound <= 0 )
+        if (tankRound <= 0)
         {
             if (tempTankOnScene.Count == 0) GameManager.VictoryBatlle();
             return;
-
         }
+
         if (tempTankOnScene.Count >= tankSpawn) return;
 
         var tankFactory = tankSpawn - tempTankOnScene.Count;
 
         tankRound -= tankFactory;
 
-        if (tankRound < 0 )
+        if (tankRound < 0)
         {
             tankRound = 0;
         }
@@ -53,28 +59,26 @@ public class SpawnEnemyControler : MonoBehaviour
         for (int i = 0; i < tankFactory; i++)
         {
             if (tempSpawnPoint.Count == 0) tempSpawnPoint.AddRange(spawnPoints);
-           
-                int rnd = Random.Range(0, tempSpawnPoint.Count - 1);
-                EnemyCreate(prefEnemy).transform.position = tempSpawnPoint[rnd].transform.position;
 
-                tempSpawnPoint.RemoveAt(rnd);
-            
+            int rnd = Random.Range(0, tempSpawnPoint.Count - 1);
+            EnemyCreate(prefEnemy).transform.position = tempSpawnPoint[rnd].transform.position;
+
+            tempSpawnPoint.RemoveAt(rnd);
         }
-        
     }
 
-      public void SetEnemysTargetAtack(GameObject temp)
-      {
-          if (tempTankOnScene.Count > 0)
-          {
-              foreach (var count in tempTankOnScene)
-              {
-                count.SetTarget(temp); 
-              }
-          }
-    
-}
-private GameObject EnemyCreate(GameObject pref)
+    public void SetEnemysTargetAtack(GameObject temp)
+    {
+        if (tempTankOnScene.Count > 0)
+        {
+            foreach (var count in tempTankOnScene)
+            {
+                count.SetTarget(temp);
+            }
+        }
+    }
+
+    private GameObject EnemyCreate(GameObject pref)
     {
         var temp = Instantiate(pref);
         tempTankOnScene.Add(temp.GetComponent<Enemy>());
@@ -82,6 +86,7 @@ private GameObject EnemyCreate(GameObject pref)
         temp.GetComponent<HelthControl>().OnDead += OnEnemyDead;
         return temp;
     }
+
     private void OnEnemyDead(GameObject enemy)
     {
         enemy.GetComponent<HelthControl>().OnDead -= OnEnemyDead;
@@ -89,6 +94,22 @@ private GameObject EnemyCreate(GameObject pref)
         kills++;
         killsUi.text = kills.ToString();
         Destroy(enemy);
+        EnemyGo();
+    }
+
+    private void DestroyAll(List<Enemy> tankOnScene)
+    {
+        //destroy all tank on scene
+        for (int i = tankOnScene.Count - 1; i >= 0; i--)
+
+        {
+            var temp = tankOnScene[i].gameObject;
+            tankOnScene[i].GetComponent<HelthControl>().OnDead -= OnEnemyDead;
+            kills++;
+            killsUi.text = kills.ToString();
+            tankOnScene.Remove(tankOnScene[i]);
+            Destroy(temp);
+        }
         EnemyGo();
     }
 }

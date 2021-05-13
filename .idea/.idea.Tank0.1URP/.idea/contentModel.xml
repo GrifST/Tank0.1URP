@@ -74,6 +74,7 @@
           <e p="ExtraLife.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="HelthControl.cs" t="Include" />
+          <e p="MenuPause.cs" t="Include" />
           <e p="Projectiles.cs" t="Include" />
           <e p="Restart.cs" t="Include" />
           <e p="RotationGunEnemy.cs" t="Include" />
@@ -99,12 +100,14 @@
             </e>
           </e>
         </e>
-        <e p="SMC Pack 1" t="Include">
-          <e p="Demo" t="Include">
-            <e p="DemoAssets" t="Include">
-              <e p="V_SMC_Camera.cs" t="Include" />
-              <e p="V_SMC_Handler.cs" t="Include" />
-              <e p="V_Text.cs" t="Include" />
+        <e p="Sprite" t="Include">
+          <e p="SMC Pack 1" t="Include">
+            <e p="Demo" t="Include">
+              <e p="DemoAssets" t="Include">
+                <e p="V_SMC_Camera.cs" t="Include" />
+                <e p="V_SMC_Handler.cs" t="Include" />
+                <e p="V_Text.cs" t="Include" />
+              </e>
             </e>
           </e>
         </e>
