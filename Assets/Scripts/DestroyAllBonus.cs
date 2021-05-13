@@ -8,7 +8,7 @@ public class DestroyAllBonus : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        SpawnEnemyControler.bonusDestroy();
+        SpawnEnemyControler.AllTankDestroy();
         Destroy(gameObject);
     }
   

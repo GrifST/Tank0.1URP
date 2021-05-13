@@ -34,7 +34,10 @@ public class HelthControl : MonoBehaviour
         _currentHP = _maxHelthPoint;
     }
 
-
+    public void PublickSuicid()
+    {
+        Sucid();
+    }
     public void TakeDamage(float damage)
     {
         _currentSP -= damage;

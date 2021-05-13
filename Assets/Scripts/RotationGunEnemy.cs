@@ -16,8 +16,6 @@ public class RotationGunEnemy : BaseTank
     {
         RaycastHit2D hit = Physics2D.Raycast(firepoint.position, -Vector2.up);
 
-        
-
     }
     public void SetTarget(Transform target)
     {
@@ -34,8 +32,10 @@ public class RotationGunEnemy : BaseTank
         base.RotationOnTarget(target.transform.position, SpeedTorward);
         GetAngleAttack();
 
+        
 
     }
+    
 
     private void GetAngleAttack()
     {

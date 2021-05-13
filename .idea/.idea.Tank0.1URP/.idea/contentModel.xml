@@ -68,8 +68,11 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="BaseTank.cs" t="Include" />
+          <e p="Bonus.cs" t="Include" />
+          <e p="BonusManager.cs" t="Include" />
           <e p="Camcontrol.cs" t="Include" />
           <e p="Croshire.cs" t="Include" />
+          <e p="DestroyAllBonus.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
           <e p="ExtraLife.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />

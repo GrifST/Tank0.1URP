@@ -27,17 +27,18 @@ public class SpawnEnemyControler : MonoBehaviour
         EnemyGo();
     }
 
-   /* private void Update()
-    {
-       if (Input.GetKeyDown(KeyCode.Space))
-        {
-            DestroyAll(tempTankOnScene);
-        }*/
+    /* private void Update()
+     {
+        if (Input.GetKeyDown(KeyCode.Space))
+         {
+             DestroyAll(tempTankOnScene);
+         }*/
 
-    public void bonusDestroy()
+    public void AllTankDestroy()
     {
         DestroyAll(tempTankOnScene);
     }
+
     private void EnemyGo()
     {
         // Условие победы
@@ -105,13 +106,12 @@ public class SpawnEnemyControler : MonoBehaviour
         for (int i = tankOnScene.Count - 1; i >= 0; i--)
 
         {
-            var temp = tankOnScene[i].gameObject;
+            tankOnScene[i].GetComponent<HelthControl>().PublickSuicid();
             tankOnScene[i].GetComponent<HelthControl>().OnDead -= OnEnemyDead;
             kills++;
             killsUi.text = kills.ToString();
-            tankOnScene.Remove(tankOnScene[i]);
-            Destroy(temp);
         }
+
         EnemyGo();
     }
 }
