@@ -26,9 +26,9 @@ public class GameManager : MonoBehaviour
         restartButton.gameObject.SetActive(false);
     }
 
-    public void LivesScore(int  bonusLive)
+    public void LivesScore()
     {
-        lives += bonusLive;
+        lives++;
         livesUi.text = lives.ToString();
     }
     

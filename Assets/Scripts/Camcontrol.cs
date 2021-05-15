@@ -10,7 +10,7 @@ public class Camcontrol : MonoBehaviour
     {
         if (player == null) return;//пендальф
         transform.position = Vector3.Lerp(transform.position,
-            new Vector3(player.transform.position.x, player.transform.position.y, transform.position.z),
+           player.transform.position,
             Time.deltaTime * 1f);
     }
 }

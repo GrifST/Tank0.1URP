@@ -1,15 +1,15 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿//using System.Collections;
+//using System.Collections.Generic;
+//using UnityEngine;
 
-public class DestroyAllBonus : MonoBehaviour
-{
-    [SerializeField] private SpawnEnemyControler SpawnEnemyControler;
+//public class DestroyAllBonus : MonoBehaviour
+//{
+//    [SerializeField] private SpawnEnemyControler SpawnEnemyControler;
 
-    public void OnTriggerEnter2D(Collider2D collision)
-    {
-        SpawnEnemyControler.AllTankDestroy();
-        Destroy(gameObject);
-    }
+//    public void OnTriggerEnter2D(Collider2D collision)
+//    {
+//        SpawnEnemyControler.AllTankDestroy();
+//        Destroy(gameObject);
+//    }
   
-}
+//}

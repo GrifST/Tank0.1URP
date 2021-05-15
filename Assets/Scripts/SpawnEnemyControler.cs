@@ -27,12 +27,7 @@ public class SpawnEnemyControler : MonoBehaviour
         EnemyGo();
     }
 
-    /* private void Update()
-     {
-        if (Input.GetKeyDown(KeyCode.Space))
-         {
-             DestroyAll(tempTankOnScene);
-         }*/
+   
 
     public void AllTankDestroy()
     {
@@ -106,9 +101,9 @@ public class SpawnEnemyControler : MonoBehaviour
         for (int i = tankOnScene.Count - 1; i >= 0; i--)
 
         {
+            
             tankOnScene[i].GetComponent<HelthControl>().PublickSuicid();
-            tankOnScene[i].GetComponent<HelthControl>().OnDead -= OnEnemyDead;
-            kills++;
+          
             killsUi.text = kills.ToString();
         }
 

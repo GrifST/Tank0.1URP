@@ -8,6 +8,7 @@ public class BonusManager : MonoBehaviour
 {
     [SerializeField] private SpawnEnemyControler spawnEnemyControler;
     [SerializeField] private GameManager gameManager;
+    [SerializeField] private HelthControl HelthControl;
     private List<Bonus> bonuss = new List<Bonus>();
 
     private void Start()
@@ -28,9 +29,14 @@ public class BonusManager : MonoBehaviour
                 case TypeBonus.destroyAll:
                     spawnEnemyControler.AllTankDestroy();
                     break;
-                case TypeBonus.freezAll:
+                case TypeBonus.restorHealth:
+                    HelthControl.ResetHelthPoint();
                     break;
-                case TypeBonus.speedUp:
+                case TypeBonus.restorShield:
+                    HelthControl.ResetShielPoint();
+                    break;
+                case TypeBonus.extraLife:
+                    gameManager.LivesScore();
                     break;
             }
 

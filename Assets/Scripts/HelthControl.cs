@@ -9,12 +9,11 @@ public class HelthControl : MonoBehaviour
     [SerializeField] private StatSetter _statSetter;
     [SerializeField] private GameObject Enemy;
     [Header("Здоровье и Щиты")]
-    [SerializeField]
-    private float _maxHelthPoint;
 
+    [SerializeField] private float _maxHelthPoint;
     [SerializeField] private float _maxShieldPoint;
-    private float _currentSP;
-    private float _currentHP;
+    [SerializeField] private float _currentSP;
+    [SerializeField] private float _currentHP;
     
 
     public StatSetter Setter
@@ -37,6 +36,14 @@ public class HelthControl : MonoBehaviour
     public void PublickSuicid()
     {
         Sucid();
+    }
+    public void ResetShielPoint()
+    {
+        
+    }
+    public void ResetHelthPoint()
+    {
+        
     }
     public void TakeDamage(float damage)
     {

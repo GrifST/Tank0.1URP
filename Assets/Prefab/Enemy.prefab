@@ -218,7 +218,7 @@ MonoBehaviour:
   angle: 360
   timer: 0
   _rateFireoffspeed: 1.5
-  fireDistance: 10
+  fireDistance: 15
 --- !u!114 &470590200386596290
 MonoBehaviour:
   m_ObjectHideFlags: 0

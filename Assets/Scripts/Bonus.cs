@@ -7,8 +7,10 @@ namespace DefaultNamespace
     public enum TypeBonus
     {
         destroyAll,
-        freezAll,
-        speedUp
+        restorShield,
+        restorHealth,
+        extraLife
+
     }
 
 
