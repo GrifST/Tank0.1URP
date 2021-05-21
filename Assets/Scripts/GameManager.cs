@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Button restartButton;
     [SerializeField] private Croshire croshire;
     [SerializeField] private SpawnEnemyControler SpawnEnemyControler;
+    private static bool gameOver = false;
     
     private void Start()
     {
@@ -25,7 +26,19 @@ public class GameManager : MonoBehaviour
         livesUi.text = lives.ToString();
         restartButton.gameObject.SetActive(false);
     }
-
+    private void Update()
+    {
+        if (gameOver)
+        {
+            Cursor.visible = true;
+            croshire.enabled = false;
+        }
+        else
+        {
+            Cursor.visible = false;
+            croshire.enabled = true;
+        }
+    }
     public void LivesScore()
     {
         lives++;
@@ -72,9 +85,11 @@ public class GameManager : MonoBehaviour
         if (lives <= 0)
         {
             gameoverUI.enabled = true;
+            gameOver = true;
             restartButton.gameObject.SetActive(true);
             Cursor.visible = true;
             croshire.enabled = false;
+           
         }
     }
     
