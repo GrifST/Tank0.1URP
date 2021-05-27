@@ -16,7 +16,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Croshire croshire;
     [SerializeField] private SpawnEnemyControler SpawnEnemyControler;
     private static bool gameOver = false;
-    
+    public GameObject TempTankPlayer;
+
     private void Start()
     {
         Cursor.visible = false;
@@ -54,6 +55,7 @@ public class GameManager : MonoBehaviour
     private GameObject PlayerCreate(GameObject pref)
     {
         var temp = Instantiate(pref);
+        TempTankPlayer = temp;
         temp.GetComponentInChildren<HelthControl>().Setter = _statSetter;
         temp.GetComponentInChildren<HelthControl>().OnDead += OnPlayerDeda;
         cam.player = temp;
