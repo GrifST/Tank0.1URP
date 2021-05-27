@@ -29,8 +29,9 @@ public class HelthControl : MonoBehaviour
 
     private void Start()
     {
-        _currentSP = _maxShieldPoint;
-        _currentHP = _maxHelthPoint;
+        ResetHelthPoint();
+        ResetShielPoint();
+
     }
 
     public void PublickSuicid()
@@ -40,10 +41,14 @@ public class HelthControl : MonoBehaviour
     public void ResetShielPoint()
     {
         
+        _currentSP = _maxShieldPoint;
+        Setter.SetSP(_currentSP, _maxShieldPoint);
     }
     public void ResetHelthPoint()
     {
         
+        _currentHP = _maxHelthPoint;
+        Setter.SetHP(_currentHP, _maxHelthPoint);
     }
     public void TakeDamage(float damage)
     {
