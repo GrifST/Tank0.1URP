@@ -8,16 +8,22 @@ public class TankController : MonoBehaviour
     [Header("Ссылка на пушку")]
     [SerializeField] private Shoting _shoting; 
 
-    public float speedMax = 10f;
-    public float torqueMax = 10f;
+    public float speedMax = 250f;
+    public float torqueMax = 100f;
 
     Rigidbody2D rigidBody;
-    public Material wheelLeft;
-    public Material wheelRight;
+    public Renderer wheelLeftRenderer;
+    public Renderer wheelRightRenderer;
+    private Material wheelLeft;
+    private Material wheelRight;
 
     private void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
+        wheelLeft = new Material(wheelLeftRenderer.sharedMaterial);
+        wheelLeftRenderer.sharedMaterial = wheelLeft;
+        wheelRight = new Material(wheelRightRenderer.sharedMaterial);
+        wheelRightRenderer.sharedMaterial = wheelRight;
     }
 
     float vertical = 0;
