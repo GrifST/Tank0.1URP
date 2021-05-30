@@ -1,15 +1,20 @@
-﻿//using System.Collections;
-//using System.Collections.Generic;
-//using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-//public class DestroyAllBonus : MonoBehaviour
-//{
-//    [SerializeField] private SpawnEnemyControler SpawnEnemyControler;
+public class DestroyAllBonus : Bonus
+{
+    protected override void OnTake(Character character)
+    {
+        
+        var enemyList = SpawnEnemyControler.main.enemyTankOnScene;
+        foreach (var enemy in enemyList.ToArray())
+        {
+            enemy.Kill();
+        }
 
-//    public void OnTriggerEnter2D(Collider2D collision)
-//    {
-//        SpawnEnemyControler.AllTankDestroy();
-//        Destroy(gameObject);
-//    }
-  
-//}
+        base.OnTake(character);
+
+    }
+
+}

@@ -2,30 +2,21 @@ using System;
 using System.Reflection.Emit;
 using UnityEngine;
 
-namespace DefaultNamespace
+public class Bonus : MonoBehaviour
 {
-    public enum TypeBonus
+        
+    protected virtual void OnTake(Character character)
     {
-        destroyAll,
-        restorShield,
-        restorHealth,
-        extraLife
-
+        Destroy(gameObject);
     }
 
-
-    public class Bonus : MonoBehaviour
+    protected virtual void OnTriggerEnter2D(Collider2D other)
     {
-        [SerializeField] private TypeBonus typeBonus;
-        public Action<Bonus,TypeBonus> MeGet;
-
-        private void OnTriggerEnter2D(Collider2D other)
+        Debug.Log(other.name);
+        var player = other.GetComponent<PlayerCharecter>();
+        if (player != null)
         {
-            var temp = other.GetComponent<TankController>();
-            if (temp != null)
-            {
-                MeGet?.Invoke(gameObject.GetComponent<Bonus>(),typeBonus);
-            }
+            OnTake(player);
         }
     }
 }

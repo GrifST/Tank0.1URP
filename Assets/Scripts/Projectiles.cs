@@ -2,28 +2,13 @@
 
 public class Projectiles : MonoBehaviour
 {
-    [SerializeField] float speed;
-    [SerializeField] private float rateFire;
     [SerializeField] private float damage;
+    [SerializeField] private float radius;
     public GameObject Hiteffect;
-    
-
-    public float Speed
-    {
-        get => speed;
-        set => speed = value;
-    }
-
-    public float RateFire
-    {
-        get => rateFire;
-        set => rateFire = value;
-    }
-
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        var temp = collision.collider.GetComponent<HelthControl>();
+        var temp = collision.collider.GetComponent<Character>();
         if (temp!=null)
         {
          temp.TakeDamage(damage);   

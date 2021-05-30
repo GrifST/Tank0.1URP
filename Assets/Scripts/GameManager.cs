@@ -4,22 +4,30 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager main;
     [SerializeField] private GameObject prefPlayer;
     [SerializeField] private Transform spawnPlayer;
     [SerializeField] private Camcontrol cam;
-    [SerializeField] private StatSetter _statSetter;
     [SerializeField] private int lives;
     [SerializeField] private Text livesUi;
     [SerializeField] private Text gameoverUI;
     [SerializeField] private Text victoryUi;
+    [SerializeField] private int kills;
+    [SerializeField] private Text killsUi;
     [SerializeField] private Button restartButton;
     [SerializeField] private Croshire croshire;
-    [SerializeField] private SpawnEnemyControler SpawnEnemyControler;
     private static bool gameOver = false;
-    public GameObject TempTankPlayer;
+    public StatSetter playerStatSetter;
+    public StatSetter enemyStatSetter;
 
+
+    private void Awake()
+    {
+        main = this;
+    }
     private void Start()
     {
+        killsUi.text = kills.ToString();
         Cursor.visible = false;
         GoGoTank();
         victoryUi.enabled = false;
@@ -40,7 +48,7 @@ public class GameManager : MonoBehaviour
             croshire.enabled = true;
         }
     }
-    public void LivesScore()
+    public void AddPlayerLive()
     {
         lives++;
         livesUi.text = lives.ToString();
@@ -54,24 +62,25 @@ public class GameManager : MonoBehaviour
 
     private GameObject PlayerCreate(GameObject pref)
     {
-        var temp = Instantiate(pref);
-        TempTankPlayer = temp;
-        temp.GetComponentInChildren<HelthControl>().Setter = _statSetter;
-        temp.GetComponentInChildren<HelthControl>().OnDead += OnPlayerDeda;
-        cam.player = temp;
-        SpawnEnemyControler.SetEnemysTargetAtack(temp);
-        return temp;
+        var player = Instantiate(pref);
+        cam.player = player;
+        return player;
         
 
     }
 
-    private void OnPlayerDeda(GameObject player)
+    public void OnPlayerDead(PlayerCharecter player)
     {   
-        player.GetComponentInChildren<HelthControl>().OnDead -= OnPlayerDeda;
-        Destroy(player);
         lives--;
         GameOver();
         GoGoTank();
+    }
+    public void OnEnemyDead(EnemyCharacter enemy)
+    {
+        SpawnEnemyControler.main.EnemyRemove(enemy);
+        kills++;
+        killsUi.text = kills.ToString();
+        SpawnEnemyControler.main.SpawnEnemy();
     }
     public void VictoryBatlle()
     {
