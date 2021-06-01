@@ -14,7 +14,9 @@ public class Character : MonoBehaviour
     [SerializeField] private float _maxShieldPoint;
     [SerializeField] private float _currentSP;
     [SerializeField] private float _currentHP;
-
+    [SerializeField] private float shieldRegen;
+    [SerializeField] private float shieldRegenColdown;
+    private float shieldRegenTimer;
     [SerializeField] private StatSetter _statSetter;
     public StatSetter setter
     {
@@ -48,6 +50,7 @@ public class Character : MonoBehaviour
     }
     public void TakeDamage(float damage)
     {
+        shieldRegenTimer = 0;
         _currentSP -= damage;
        
         if (_currentSP <= 0)
@@ -69,5 +72,19 @@ public class Character : MonoBehaviour
         Destroy(gameObject);
     }
 
+    private void FixedUpdate()
+    {
+        if (shieldRegen == 0) return;
+        if(shieldRegenTimer > shieldRegenColdown && _currentSP < _maxShieldPoint)
+        {
+            _currentSP += shieldRegen * Time.deltaTime;
+            if (_currentSP > _maxShieldPoint) _currentSP = _maxShieldPoint;
+            setter.SetSP(_currentSP, _maxShieldPoint);
+        }
+        else
+        {
+            shieldRegenTimer += Time.deltaTime;
+        }
+    }
 
 }

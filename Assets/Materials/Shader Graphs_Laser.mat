@@ -10,7 +10,7 @@ Material:
   m_Name: Shader Graphs_Laser
   m_Shader: {fileID: -6465566751694194690, guid: 386f1399beef67040835e6f0dfc11f2a,
     type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -22,7 +22,7 @@ Material:
     m_TexEnvs: []
     m_Floats:
     - Vector1_829B5039: 3
-    - Vector1_CA3ABF8D: -0.71
+    - Vector1_CA3ABF8D: -0.08
     m_Colors:
-    - Color_B010B3A0: {r: 1, g: 0, b: 0, a: 1}
+    - Color_B010B3A0: {r: 1.3246024, g: 0, b: 0, a: 1}
     - Vector2_6ECFE5D1: {r: -0.66, g: -0.39, b: -0.64, a: 0}

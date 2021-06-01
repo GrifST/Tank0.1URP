@@ -9,16 +9,40 @@ public class Turret : MonoBehaviour
     public float accelRotation = 100f;
     private Gun[] guns;
     [SerializeField] private bool isPermanentShot;
+    private float fireRateDelay;
+    private float fireRateTimer;
+    private int fireRateIndex = -1;
     void Start()
     {
         guns = GetComponentsInChildren<Gun>();
+        fireRateDelay = 60f / guns[0].fireRate / guns.Length + 0.01f;
     }
     public void Shot()
     {
-        foreach(var gun in guns)
+        if (isPermanentShot || guns.Length == 1)
         {
-            gun.Shot();
+            foreach (var gun in guns)
+            {
+                gun.Shot();
+            }
         }
+        else
+        {
+          var newIndex = Mathf.FloorToInt(fireRateTimer / fireRateDelay);
+            if (newIndex > fireRateIndex)
+            {
+                
+                if (newIndex >= guns.Length)
+                {
+                    fireRateTimer = 0;
+                    newIndex = 0;
+                }
+                fireRateIndex = newIndex;
+                guns[fireRateIndex].Shot();
+            }
+            fireRateTimer += Time.deltaTime;
+        }
+        
     }
     
     void Update()

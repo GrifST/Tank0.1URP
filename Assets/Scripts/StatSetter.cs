@@ -20,7 +20,7 @@ public class StatSetter : MonoBehaviour
 
     private void FixedUpdate()
     {
-       if(hpLabel.value != currentHP) hpLabel.value = Mathf.MoveTowards(hpLabel.value, currentHP, 1f);
-      if(shieldLabel.value != currentSP) shieldLabel.value = Mathf.MoveTowards(shieldLabel.value, currentSP, 1f);
+       if(hpLabel.value != currentHP) hpLabel.value = Mathf.MoveTowards(hpLabel.value, currentHP, hpLabel.maxValue / 50f);
+      if(shieldLabel.value != currentSP) shieldLabel.value = Mathf.MoveTowards(shieldLabel.value, currentSP, shieldLabel.maxValue / 50f);
     }
 }

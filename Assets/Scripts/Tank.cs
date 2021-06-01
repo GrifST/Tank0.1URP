@@ -8,8 +8,8 @@ public class Tank : MonoBehaviour
     
     
     
-    public float speedMax = 250f;
-    public float torqueMax = 100f;
+    public float speedMax = 12f;
+    public float torqueMax = 150f;
 
     Rigidbody2D rigidBody;
 
@@ -28,6 +28,8 @@ public class Tank : MonoBehaviour
     {
        
         rigidBody = GetComponent<Rigidbody2D>();
+        if (!wheelLeftRenderer) return;
+        if (!wheelRightRenderer) return;
         wheelLeft = new Material(wheelLeftRenderer.sharedMaterial);
         wheelLeftRenderer.sharedMaterial = wheelLeft;
         wheelRight = new Material(wheelRightRenderer.sharedMaterial);
@@ -35,31 +37,36 @@ public class Tank : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        wheelSpeedLeft = -vertical * 2f; //изначально скорость ставится прямо или назад
-        wheelSpeedRight = -vertical * 2f; //на обе гусли
-        if (horizontal != 0)
+        if (wheelLeftRenderer && wheelRightRenderer)
         {
+            wheelSpeedLeft = -vertical * 2f; //изначально скорость ставится прямо или назад
+            wheelSpeedRight = -vertical * 2f; //на обе гусли
+            if (horizontal != 0)
+            {
 
-            if (vertical != 0)
-            {
-                //затем если едем
-                if (horizontal > 0) wheelSpeedRight *=  (1.3f - horizontal); //то замедляем или останавливаем (по желанию) гуслю в стороне поворота
-                else wheelSpeedLeft *=  (1.3f + horizontal);
-            }
-            else
-            {
-                // иначе если стоим, то вертим гусли против друг друга
-                wheelSpeedLeft -= horizontal;
-                wheelSpeedRight += horizontal;
+                if (vertical != 0)
+                {
+                    //затем если едем
+                    if (horizontal > 0) wheelSpeedRight *= (1.3f - horizontal); //то замедляем или останавливаем (по желанию) гуслю в стороне поворота
+                    else wheelSpeedLeft *= (1.3f + horizontal);
+                }
+                else
+                {
+                    // иначе если стоим, то вертим гусли против друг друга
+                    wheelSpeedLeft -= horizontal;
+                    wheelSpeedRight += horizontal;
+                }
             }
         }
+       
         rigidBody.velocity = transform.up * vertical * speedMax;
         rigidBody.angularVelocity = (vertical < 0 ? horizontal : -horizontal) * torqueMax;
 
     }
     private void LateUpdate()
     {
-
+        if (!wheelLeftRenderer) return;
+        if (!wheelRightRenderer) return;
         UpdateWheelTiling(wheelLeft, ref wheelTilingLeft, wheelSpeedLeft);
         UpdateWheelTiling(wheelRight, ref wheelTilingRight, wheelSpeedRight);
     }
