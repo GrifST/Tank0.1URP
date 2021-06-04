@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Animator))]
 public class Gun : MonoBehaviour
 {
     [SerializeField] private Projectiles projectile;
@@ -9,11 +10,11 @@ public class Gun : MonoBehaviour
     [SerializeField] private float projectileSpeed;
     [SerializeField] private Transform firepoint;
 
-    //[SerializeField] private Animator gunShot; анимация отката орудия
+    private Animator animator; 
     public bool canShot { get; private set; } = true;
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     public void Shot()
@@ -24,7 +25,7 @@ public class Gun : MonoBehaviour
     IEnumerator IEShot()
     {
         canShot = false;
-        //gunShot.Play("Base Layer");
+        animator.Play("Shot");
         var p = Instantiate(projectile, firepoint.position, firepoint.rotation);
         p.speed = projectileSpeed;
         yield return new WaitForSeconds(60f / fireRate);

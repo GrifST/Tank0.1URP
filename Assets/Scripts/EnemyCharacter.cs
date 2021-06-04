@@ -9,8 +9,6 @@ public class EnemyCharacter : Character
     public float stopDistance = 10f;
     protected override void Start()
     {
-        setter = GameManager.main.enemyStatSetter;
-        //setterAnchor = EnemyCharacter.GetComponent<Collider2D>().bounds.min.y;
         base.Start();
         rigidBody = GetComponent<Rigidbody2D>();
     }

@@ -17,8 +17,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Button restartButton;
     [SerializeField] private Croshire croshire;
     private static bool gameOver = false;
-    public StatSetter playerStatSetter;
-    public StatSetter enemyStatSetter;
+    [SerializeField] private StatSetter statSetterPref;
+    [SerializeField] private Transform statSetterContainer;
+    
 
 
     private void Awake()
@@ -47,6 +48,10 @@ public class GameManager : MonoBehaviour
             Cursor.visible = false;
             croshire.enabled = true;
         }
+    }
+    public StatSetter CreateStatSetter()
+    {
+        return Instantiate(statSetterPref, statSetterContainer);
     }
     public void AddPlayerLive()
     {

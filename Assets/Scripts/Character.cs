@@ -17,8 +17,9 @@ public class Character : MonoBehaviour
     [SerializeField] private float shieldRegen;
     [SerializeField] private float shieldRegenColdown;
     private float shieldRegenTimer;
-    [SerializeField] private StatSetter _statSetter;
-    public StatSetter setter
+    private StatSetter _statSetter;
+    private BoxCollider2D characterCollider;
+    public StatSetter statSetter
     {
         get => _statSetter;
         set
@@ -31,6 +32,8 @@ public class Character : MonoBehaviour
 
     protected virtual void Start()
     {
+        characterCollider = GetComponent<BoxCollider2D>();
+        statSetter = GameManager.main.CreateStatSetter();
         ResetHelthPoint();
         ResetShielPoint();
     }
@@ -40,13 +43,13 @@ public class Character : MonoBehaviour
     {
 
         _currentSP = _maxShieldPoint;
-        setter.SetSP(_currentSP, _maxShieldPoint);
+        statSetter.SetSP(_currentSP, _maxShieldPoint);
     }
     public void ResetHelthPoint()
     {
 
         _currentHP = _maxHelthPoint;
-        setter.SetHP(_currentHP, _maxHelthPoint);
+        statSetter.SetHP(_currentHP, _maxHelthPoint);
     }
     public void TakeDamage(float damage)
     {
@@ -63,8 +66,8 @@ public class Character : MonoBehaviour
                 Kill();
             }
         }
-        setter.SetSP(_currentSP, _maxShieldPoint);
-        setter.SetHP(_currentHP, _maxHelthPoint);
+        statSetter.SetSP(_currentSP, _maxShieldPoint);
+        statSetter.SetHP(_currentHP, _maxHelthPoint);
     }
 
     public virtual void Kill()
@@ -74,17 +77,22 @@ public class Character : MonoBehaviour
 
     private void FixedUpdate()
     {
+        statSetter.transform.position =  Camera.main.WorldToScreenPoint(new Vector3(transform.position.x, characterCollider.bounds.min.y));
         if (shieldRegen == 0) return;
         if(shieldRegenTimer > shieldRegenColdown && _currentSP < _maxShieldPoint)
         {
             _currentSP += shieldRegen * Time.deltaTime;
             if (_currentSP > _maxShieldPoint) _currentSP = _maxShieldPoint;
-            setter.SetSP(_currentSP, _maxShieldPoint);
+            statSetter.SetSP(_currentSP, _maxShieldPoint);
         }
         else
         {
             shieldRegenTimer += Time.deltaTime;
         }
     }
+    protected virtual void OnDestroy()
+    {
+       if(statSetter) Destroy(statSetter.gameObject);
 
+    }
 }

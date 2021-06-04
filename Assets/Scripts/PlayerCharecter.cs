@@ -6,7 +6,6 @@ public class PlayerCharecter : Character
 {
     protected override void Start()
     {
-        setter = GameManager.main.playerStatSetter;
         base.Start();
     }
     void Update()
