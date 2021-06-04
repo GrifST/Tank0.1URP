@@ -8,6 +8,8 @@ public class Gun : MonoBehaviour
     public float fireRate;
     [SerializeField] private float projectileSpeed;
     [SerializeField] private Transform firepoint;
+
+    //[SerializeField] private Animator gunShot; анимация отката орудия
     public bool canShot { get; private set; } = true;
     void Start()
     {
@@ -22,6 +24,7 @@ public class Gun : MonoBehaviour
     IEnumerator IEShot()
     {
         canShot = false;
+        //gunShot.Play("Base Layer");
         var p = Instantiate(projectile, firepoint.position, firepoint.rotation);
         p.speed = projectileSpeed;
         yield return new WaitForSeconds(60f / fireRate);
