@@ -14,6 +14,7 @@ public class Character : MonoBehaviour
     [SerializeField] private float _maxShieldPoint;
     [SerializeField] private float _currentSP;
     [SerializeField] private float _currentHP;
+    public bool canShieldRegen = false;
     [SerializeField] private float shieldRegen;
     [SerializeField] private float shieldRegenColdown;
     private float shieldRegenTimer;
@@ -54,10 +55,13 @@ public class Character : MonoBehaviour
     public void TakeDamage(float damage)
     {
         shieldRegenTimer = 0;
-        _currentSP -= damage;
+        if (_currentSP > 0) _currentSP -= damage;
+        
+        
        
         if (_currentSP <= 0)
         {
+            if (canShieldRegen) canShieldRegen = false;
             _currentHP -= damage;
            
 
@@ -78,7 +82,7 @@ public class Character : MonoBehaviour
     private void FixedUpdate()
     {
         statSetter.transform.position =  Camera.main.WorldToScreenPoint(new Vector3(transform.position.x, characterCollider.bounds.min.y));
-        if (shieldRegen == 0) return;
+        if (!canShieldRegen) return;
         if(shieldRegenTimer > shieldRegenColdown && _currentSP < _maxShieldPoint)
         {
             _currentSP += shieldRegen * Time.deltaTime;

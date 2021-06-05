@@ -6,7 +6,7 @@ public class Projectiles : MonoBehaviour
     [SerializeField] private float radius;
     public float speed;
     public GameObject Hiteffect;
-
+    public Character owner;
     protected virtual void Start()
     {
         GetComponent<Rigidbody2D>().AddForce(transform.up * speed);
@@ -22,7 +22,7 @@ public class Projectiles : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         var temp = collision.collider.GetComponent<Character>();
-        OnHit(temp);
+        if(temp != owner) OnHit(temp);
     }
 
 }
