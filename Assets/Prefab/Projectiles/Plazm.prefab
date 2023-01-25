@@ -49,6 +49,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 8
   m_RendererPriority: 0
   m_Materials:
@@ -96,10 +97,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e51a0b7a3fe7fa64a8bf5475dde5c14c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  rateFire: 1
-  damage: 10
+  damage: 15
+  radius: 0
+  speed: 50
   Hiteffect: {fileID: 100004, guid: b46890100828db6429ff69c322b45893, type: 3}
+  owner: {fileID: 0}
 --- !u!61 &-6765619435871806929
 BoxCollider2D:
   m_ObjectHideFlags: 0
