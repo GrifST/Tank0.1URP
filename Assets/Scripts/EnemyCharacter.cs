@@ -64,5 +64,6 @@ public class EnemyCharacter : Character
     {
         GameManager.main.OnEnemyDead(this);
         base.Kill();
+        
     }
 }

@@ -20,6 +20,7 @@ public class Character : MonoBehaviour
     private float shieldRegenTimer;
     private StatSetter _statSetter;
     private BoxCollider2D characterCollider;
+    [SerializeField] private GameObject _deadEffect;
     public StatSetter statSetter
     {
         get => _statSetter;
@@ -77,6 +78,7 @@ public class Character : MonoBehaviour
     public virtual void Kill()
     {
         Destroy(gameObject);
+        Instantiate(_deadEffect, transform.position, Quaternion.identity);
     }
 
     private void FixedUpdate()
