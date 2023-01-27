@@ -32,7 +32,7 @@ public class EnemyCharacter : Character
                 Vector3 direction = target.position - transform.position;
                 float angle = Vector2.SignedAngle(transform.up, direction);
                 float distance = Vector3.Distance(target.position,transform.position);
-                tank.vertical = (Mathf.Abs(angle) > 90f) ? 0 : Mathf.Clamp(distance - stopDistance ,0,1);//вперед/назад
+                tank.vertical = (Mathf.Abs(angle) > 90f) ? 0 : Mathf.Clamp(distance - stopDistance ,-1,1);//вперед/назад
                 tank.horizontal = -Mathf.Clamp(angle / 90f, -1, 1);  //лево/право
             }
         }

@@ -59,7 +59,9 @@ public class Tank : MonoBehaviour
             }
         }
        
-        rigidBody.velocity = transform.up * vertical * speedMax;
+        //rigidBody.velocity = transform.up * vertical * speedMax;
+        Vector2 targetVelocity = transform.up * vertical * speedMax;
+        rigidBody.AddForce((targetVelocity - rigidBody.velocity) * 5f);
         rigidBody.angularVelocity = (vertical < 0 ? horizontal : -horizontal) * torqueMax;
 
     }
