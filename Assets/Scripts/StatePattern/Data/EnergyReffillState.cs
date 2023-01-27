@@ -22,7 +22,7 @@ namespace StatePattern
         {
             if (IsFinished) return;
 
-                if (isSleepStarted)
+                if (!isSleepStarted)
                 {
                     MoveToBed();
                 }
@@ -38,7 +38,7 @@ namespace StatePattern
         {
             var distance = (targetBed.position - enemyStateCharacter.transform.position).magnitude;
 
-            if (distance > 1f)
+            if (distance >0.2f)
             {
                 enemyStateCharacter.MoveTo(targetBed.position);
             }
