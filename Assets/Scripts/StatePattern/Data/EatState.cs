@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace StatePattern
 {
-    [CreateAssetMenu]
+    //[CreateAssetMenu]
     public  class EatState : State
     {
         public float RestoresEat = 0.6f;

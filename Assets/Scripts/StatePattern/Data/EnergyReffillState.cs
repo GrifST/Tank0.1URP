@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace StatePattern
 {
-    [CreateAssetMenu]
+    //[CreateAssetMenu]
     public class EnergyReffillState : State
     {
         private Transform targetBed;

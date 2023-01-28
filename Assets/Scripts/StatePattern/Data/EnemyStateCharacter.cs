@@ -7,7 +7,8 @@ namespace StatePattern
 {
     public class EnemyStateCharacter : MonoBehaviour
     {
-        [Header("Initial Parametrs")] public float Eat = 1f;
+        [Header("Initial Parametrs")] 
+        public float Eat = 1f;
         public float Energy = 1f;
 
         public State StartState;

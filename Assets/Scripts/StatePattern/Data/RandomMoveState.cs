@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace StatePattern
 {
-    [CreateAssetMenu]
+    //[CreateAssetMenu]
     public  class RandomMoveState : State
     {
         public float MaxDistance = 5f;
