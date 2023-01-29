@@ -7,11 +7,10 @@ public class IdleState : State
     
     public override void Init()
     {
-        
     }
 
     public override void Run()
     {
-        
+       
     }
 }
