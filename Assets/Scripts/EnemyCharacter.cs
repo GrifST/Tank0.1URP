@@ -10,8 +10,9 @@ public class EnemyCharacter : Character
     
     [Header("State")]
     public State StartState;
-    public State Idle;
+    public State idleState;
     public State PatrolState;
+    public State AttackState;
 
     [Header("CurrentState")] 
     public State CurrentState;
@@ -44,46 +45,31 @@ public class EnemyCharacter : Character
         }
         else
         {
-            if (target)
+            if (target == null)
             {
-                AtackTarget();
+                SetState(AttackState);
             }
-            else if (target = null)
+            else if (target)
             {
                 SetState(PatrolState);
             }
             else
             {
-                SetState(Idle);
+                SetState(idleState);
             }
         }
     }
-    private void SetState(State state)
+    public void SetState(State state)
     {
         CurrentState = Instantiate(state);
         CurrentState.enemyCharacter = this;
         CurrentState.Init();
     }
     
-    public void AtackTarget()
+    public void MoveTo()
     {
-        if (tower)
-        {
-            tower.targetPosition = target.position;
-            var angle = Vector3.Angle(tower.transform.up, target.position - tower.transform.position);
-            if (angle < 10f)
-            {
-                tower.Shot();
-            }
-        }
-        if (tank)
-        {
-            Vector3 direction = target.position - transform.position;
-            float angle = Vector2.SignedAngle(transform.up, direction);
-            float distance = Vector3.Distance(target.position,transform.position);
-            tank.vertical = (Mathf.Abs(angle) > 90f) ? 0 : Mathf.Clamp(distance - stopDistance ,-1,1);
-            tank.horizontal = -Mathf.Clamp(angle / 90f, -1, 1);  
-        }
+        
+        
     }
     
     
